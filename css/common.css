@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+/* ===================Task-1===================== */
+.task-first {
+  border-radius: 8px;
+
+  width: 440px;
+  height: 888px;
+  background: #ffffff;
+}
+.list-task-first {
+  padding: 24px;
+}
+.part-animals {
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  max-height: 264px;
+  padding: 16px;
+  margin-bottom: 24px;
+  background-color: #f6f6fe;
+}
+.item {
+  list-style-type: none;
+}
+.list-items {
+  padding-left: 0;
+  list-style-type: none;
+}
+.list-items-text {
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.list-items-text:last-child {
+  margin-bottom: 0;
+}
+.title-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #2e2f42;
+}
+.part-products {
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  max-height: 216px;
+  padding: 16px;
+  margin-bottom: 24px;
+  background-color: #f6f6fe;
+}
+.part-technologies {
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  max-height: 312px;
+  padding: 16px;
+  background-color: #f6f6fe;
+}
+/* ===================/Task-1===================== */
