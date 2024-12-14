@@ -96,3 +96,39 @@ body {
   padding: 0;
 }
 /* ===================/Task-2===================== */
+/* ====================Task-4===================== */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+  background-color: #ffffff;
+}
+.input-form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  max-height: 72px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+.input-form-list {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+.btn-form {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background-color: #4e75ff;
+}
+/* ===================/Task-4===================== */
