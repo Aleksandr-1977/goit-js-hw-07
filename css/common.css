@@ -134,10 +134,12 @@ body {
 /* ===================/Task-4===================== */
 /* ====================Task-6===================== */
 .section {
+  display: flex;
+  flex-direction: column;
   border-radius: 8px;
   padding: 24px;
-  width: 534px;
-  height: 302px;
+  width: auto;
+  min-height: 302px;
   background-color: #ffffff;
 }
 .section-buttons {
@@ -145,7 +147,7 @@ body {
   gap: 16px;
   border-radius: 8px;
   padding: 32px;
-  min-width: 486px;
+  width: auto;
   height: 104px;
   background-color: #f6f6fe;
 }
@@ -189,9 +191,10 @@ body {
 }
 .section-boxes {
   display: flex;
+
   border-radius: 8px;
   padding: 32px;
-  min-width: 486px;
+  width: auto;
   min-height: 134px;
   background-color: #f6f6fe;
 }

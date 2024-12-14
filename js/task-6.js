@@ -14,16 +14,16 @@ const boxesContainer = document.querySelector('#boxes');
 
 function createBoxes(amount) {
   const elements = [];
-  let size = 30;
+  let size = 20;
 
   for (let i = 0; i < amount; i++) {
     const div = document.createElement('div');
     div.style.width = `${size}px`;
     div.style.height = `${size}px`;
     div.style.backgroundColor = getRandomHexColor();
-    div.style.margin = '5px';
+    div.style.margin = '2px';
     elements.push(div);
-    size += 10;
+    size += 5;
   }
 
   boxesContainer.innerHTML = '';
